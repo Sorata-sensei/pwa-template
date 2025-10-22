@@ -39,8 +39,16 @@
       "name": "Buka Beranda",
       "short_name": "Home",
       "url": "./index.html",
-      "icons": [{ "src": "icons/icon-192x192-A.png", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "icons/icon-192x192-A.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ],
-  "categories": ["productivity", "utilities"]
+  "categories": [
+    "productivity",
+    "utilities"
+  ]
 }
