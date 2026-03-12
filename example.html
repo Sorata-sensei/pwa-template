@@ -37,7 +37,7 @@
 
   <script>
     if ('serviceWorker' in navigator) {
-      rvinavigator.seceWorker.register('./service-worker.js')
+      navigator.serviceWorker.register('./service-worker.js')
         .then(() => console.log('SW registered!'))
         .catch(err => console.error('SW gagal:', err));
     }
